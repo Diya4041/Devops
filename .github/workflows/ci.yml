@@ -28,4 +28,4 @@ jobs:
 
       - name: Deploy to Jenkins
         run: |
-          curl -X POST "http://<JENKINS_URL>/job/deploy-html/build?token=your_jenkins_token"
+          curl -X POST "http://localhost:8080/job/deploy-html/build?token=your_jenkins_token"
